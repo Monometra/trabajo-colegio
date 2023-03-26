@@ -10,13 +10,14 @@ a{
     color: black;
 }
 
-header{
+header {
     display: flex;
     min-height: 70px;
     background-color: antiquewhite;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -38,12 +39,12 @@ nav a:hover{
     color: white;
 }
 
-@media (max-width:700px){
-    header{
+@media (max-width: 700px) {
+    header {
         flex-direction: column;
     }
 
-    nav{
+    nav {
         padding: 10px 0px;
     }
 }
@@ -94,4 +95,18 @@ nav a:hover{
 
 .presentacion{
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 40px;
+    }
+
+    .logo h2 {
+        font-size: 16px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
 }
