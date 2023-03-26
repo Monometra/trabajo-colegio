@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=Fasthand&family=Lilita+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap);
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.titulo-index{
+    font-family: "Fasthand";
+    text-align: center;
+}
+
+.texto-index{
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+.subtitulo-index{
+    font-family: "Fasthand";
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}
+
+.titulo-desarrolladores{
+    font-family: "Fasthand";
+    text-align: center;
+}
+
+.interno-desarrolladores{
+    font-family: "Source Sans Pro";
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-index-2{
+    font-family: "Fasthand";
+    text-align: center;
+}
+
+.texto-index-2{
+    font-family: "Source Sans Pro";
+    text-align: center;
+    font-size: x-large;
+}
+
+.presentacion{
+    text-align: center;
+}
